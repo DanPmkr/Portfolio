@@ -1,0 +1,154 @@
+{% extends "layout.html" %} 
+
+{% block title %}
+    Dan's Services
+{% endblock %}
+
+{% block content %}
+      
+    <section class="ftco-section" id="services-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Services</h1>
+            <h2 class="mb-4">Services</h2>
+            </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-analysis"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Custom Web Design</h3>
+                                <p>Get your dynamic and customised web site at affordable price. Whatever your need, you can get prompt response whether for personal use, eCommerce or organisations. </p>
+                            </div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-flasks"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Database Development & Management</h3>
+								<p>Get the latest Configuration Management Database (CMDB) for your organisation.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Custom software development </h3>
+								<p>Get your applications development & maintenance and deployment on mobile and web devices.</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1 shadow">
+							<span class="icon">
+								<i class="flaticon-ux-design"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Project Management</h3>
+								<p>We plan, create, organise, deliver and deploy yout IT projects to meet your organisations goals.</p>
+							</div>
+						</a>
+					</div>
+					</div>
+    	</div>
+    </section>
+ 
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+     	  <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Pricing.</h2>
+            </div>
+
+    <div class="row justify-content-center ">    
+          <table>
+              <tbody>
+<tr>
+<td width=""><strong>Features</strong></td>
+<td width=""><strong>Cost</strong></td>
+</tr>
+<tr>
+<td width=""><strong>Domain name</strong></td>
+<td width=""></td>
+</tr>
+<tr>
+<td width="">.com/.net/.org</td>
+<td width="">NGN10,000</td>
+</tr>
+<tr>
+<td width="">.ng</td>
+<td width="">NGN15,000 &#8211; NGN25,000</td>
+</tr>
+<tr>
+<td width="">Backorder domain ($79)</td>
+<td width="">NGN35,000</td>
+</tr>
+<tr>
+<td width=""><strong>Web Hosting</strong></td>
+<td width=""></td>
+</tr>
+<tr>
+<td width="">shared hosting ($70-$178)</td>
+<td width="">NGN32,000 – NGN75,000</td>
+</tr>
+<tr>
+<td width="">Cloud/Virtual Private Server (VPS)<strong> (</strong>$400 &#8211; $1800)</td>
+<td width="">NGN140,000 – NGN720,000</td>
+</tr>
+<tr>
+<td width="">dedicated server<strong> (</strong>$1600 &#8211; $4350)</td>
+<td width="">NGN750,000 – NGN1,850,000</td>
+</tr>
+<tr>
+<tr>
+<td width=""><strong>Web Developer&#8217;s Fee</strong></td>
+<td width=""></td>
+</tr>
+<tr>
+<td width=""><strong>1-10 Pages</strong></td>
+<td width="">NGN45,000 – NGN100,000 (depending on the level of experience)</td>
+</tr>
+<tr>
+<td width=""><b>TOTAL WEBSITE COST BREAKDOWN</b></td>
+<td width=""><strong>NGN85,000 Minimum</strong></td>
+</tr>
+</tbody>
+</table>
+            </div>
+        
+    </section>
+    
+         
+		
+     <section class="ftco-section ftco-partner">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="{{ url_for('static', filename=('images/partner-1.png')) }}" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="{{ url_for('static', filename=('images/partner-2.png')) }}" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="{{ url_for('static', filename=('images/partner-3.png')) }}" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="{{ url_for('static', filename=('images/partner-4.png')) }}" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    			<div class="col-sm ftco-animate">
+    				<a href="#" class="partner"><img src="{{ url_for('static', filename=('images/partner-5.png')) }}" class="img-fluid" alt="Colorlib Template"></a>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   {% endblock %}
