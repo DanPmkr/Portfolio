@@ -5,11 +5,11 @@ Flask
 Flask-Session
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe
 requests==2.21.0
 SQLAlchemy
-urllib3==1.24.2
+urllib3==1.26.5
 Werkzeug
 
 # Heroku
